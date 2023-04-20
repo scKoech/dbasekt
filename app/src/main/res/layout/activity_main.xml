@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="20sp"
+        android:hint="Enter name"/>
+
+
+    <EditText
+        android:id="@+id/enterAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:textSize="22sp"
+        android:hint="Enter age"/>
+
+    <Button
+        android:id="@+id/addName"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="@color/design_default_color_primary"
+        android:text="Add Name"
+        android:textColor="#DDCFCF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/printName"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/design_default_color_primary"
+        android:text="Print Name"
+        android:textColor="#C3B6B6"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:padding="10sp"
+        android:text="Name\n\n"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Age\n\n"
+        android:textSize="22sp"
+        android:padding="10sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
